@@ -12,3 +12,4 @@ class SayController < ApplicationController
     })
   end
 end
+ 
