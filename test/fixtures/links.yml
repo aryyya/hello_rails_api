@@ -1,19 +1,19 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  from: 1
-  to: MyString
-  sortkey: 
-  timestamp: 2019-06-05
-  sortkey_prefix: 
-  collation: 
-  type: 
+  from_: 1
+  to: Sports
+  sortkey: CULTURE AND SPORTS CULTURE
+  timestamp: 2005-04-29 10:32:42
+  sortkey_prefix: Culture
+  collation: uppercase
+  type_: subcat
 
 two:
-  from: 1
-  to: MyString
-  sortkey: 
-  timestamp: 2019-06-05
-  sortkey_prefix: 
-  collation: 
-  type: 
+  from_: 2
+  to: Science
+  sortkey: SCIENTIFIC DISCIPLINES
+  timestamp: 2013-09-02 22:56:59
+  sortkey_prefix: Sci
+  collation: uppercase
+  type_: subcat

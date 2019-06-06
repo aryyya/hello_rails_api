@@ -1,15 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  category_id: 1
-  category_title: MyString
-  category_pages: 1
-  category_subcategories: 1
-  category_files: 1
+  id: 1
+  title: Sports
+  pages: 1
+  subcategories: 1
+  files: 1
 
 two:
-  category_id: 1
-  category_title: MyString
-  category_pages: 1
-  category_subcategories: 1
-  category_files: 1
+  id: 2
+  title: Science
+  pages: 1
+  subcategories: 1
+  files: 1
