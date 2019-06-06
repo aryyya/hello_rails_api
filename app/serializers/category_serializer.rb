@@ -1,8 +1,5 @@
 class CategorySerializer < ActiveModel::Serializer
-  attributes(
-    :title,
-    :sub_categories
-  )
+  attributes(:title, :sub_categories)
 
   def title
     URI::encode(
