@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(version: 2019_06_06_043014) do
     t.date "timestamp"
     t.binary "sortkey_prefix"
     t.binary "collation"
-    t.string "type"
+    t.string "type_"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

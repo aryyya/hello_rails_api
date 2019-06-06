@@ -7,7 +7,7 @@ class CreateLinks < ActiveRecord::Migration[5.2]
       t.date :timestamp
       t.binary :sortkey_prefix
       t.binary :collation
-      t.string :type
+      t.string :type_
       t.timestamps
     end
     execute "ALTER TABLE links ADD PRIMARY KEY (from_);"
