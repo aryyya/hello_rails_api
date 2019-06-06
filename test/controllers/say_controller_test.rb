@@ -1,4 +1,4 @@
-require 'test_helper'
+require "test_helper"
 
 class SayControllerTest < ActionDispatch::IntegrationTest
   test "should get hello" do
@@ -12,7 +12,7 @@ class SayControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should say hello john in json" do
-    get say_hello_url, params: { user: 'John' }
+    get say_hello_url, params: { user: "John" }
     assert_equal "{\"message\":\"Hello, John!\"}", @response.body
   end
 end
